@@ -1,0 +1,185 @@
+body{
+    overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+    margin:0px auto;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   
+}
+
+.section {text-align: center;}
+
+.text { margin-left: 25%; margin-right: 25%;}
+
+p {font-size: 19px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25); vertical-align: middle; display: table-cell; height: 200px;}
+
+.header {    position:-webkit-sticky; position:sticky; position:fixed; top:0; background-color: white; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
+
+.menu {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  top:0; background-color: white; display: table-cell;  }
+
+a { background-color: transparent; color: black; text-decoration: none;}
+        
+  .a {display: none}
+
+
+.gallery img { border-radius: 50%; width: 40%}
+
+
+.album {text-align: center;}
+
+video {height: 100%;}
+
+
+.banner { height: 400px; background-repeat: no-repeat; background-position: center; background-color:black; text-align: center; }
+
+
+
+.picture{height: 200px ; background-size: contain; background-repeat: no-repeat; background-position: center; margin-top: 5%; margin-bottom: 5%;}
+
+.text img {margin: 33px; width: 48px; vertical-align: middle;}
+
+
+.logo {
+   height: 12vw;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 24000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 24000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 24000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 24000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+ 
+   
+    
+    }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .b {display: none}
+    .a {display:inline;}
+    .text { margin-left: 25px; margin-right: 25px;}
+    .text img {margin: 20px; width: 48px; vertical-align: middle;}
+    video { width: 100%;   transform: scale(1.5); }
+    .banner { height: 300px;}
+    .picture {margin-top: 10%; margin-bottom: 10%;}
+.gallery img {width: 90%}
+    
+    iframe {height: 80vw}
+
+}
+ 
