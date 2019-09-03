@@ -21,7 +21,7 @@ p {font-size: 19px;  text-align: justify; line-height: 200%; border-bottom: soli
 a { background-color: transparent; color: black; text-decoration: none;}
         
   .a {display: none}
-
+ iframe {height: 27vw}
 
 .gallery img { border-radius: 50%; width: 40%}
 
@@ -129,7 +129,16 @@ video {height: 100%;}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-  
+    .b {display: none}
+    .a {display:inline;}
+    .text { margin-left: 25px; margin-right: 25px;}
+    .text img {margin: 20px; width: 48px; vertical-align: middle;}
+    video { width: 100%;   transform: scale(1.5); }
+    .banner { height: 300px;}
+    .picture {margin-top: 10%; margin-bottom: 10%;}
+.gallery img {width: 90%}
+    
+    iframe {height: 80vw}
   
 }
 
@@ -140,7 +149,16 @@ video {height: 100%;}
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-
+  .b {display: none}
+    .a {display:inline;}
+    .text { margin-left: 25px; margin-right: 25px;}
+    .text img {margin: 20px; width: 48px; vertical-align: middle;}
+    video { width: 100%;   transform: scale(1.5); }
+    .banner { height: 300px;}
+    .picture {margin-top: 10%; margin-bottom: 10%;}
+.gallery img {width: 90%}
+    
+    iframe {height: 80vw;}
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
@@ -149,7 +167,16 @@ video {height: 100%;}
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
  
-   
+    .b {display: none}
+    .a {display:inline;}
+    .text { margin-left: 25px; margin-right: 25px;}
+    .text img {margin: 20px; width: 48px; vertical-align: middle;}
+    video { width: 100%;   transform: scale(1.5); }
+    .banner { height: 300px;}
+    .picture {margin-top: 10%; margin-bottom: 10%;}
+.gallery img {width: 90%}
+    
+    iframe {height: 80vw} 
     
     }
 
@@ -160,7 +187,16 @@ video {height: 100%;}
 
 @media (min-width: 481px) and (max-width: 767px) {
  
+    .b {display: none}
+    .a {display:inline;}
+    .text { margin-left: 25px; margin-right: 25px;}
+    .text img {margin: 20px; width: 48px; vertical-align: middle;}
+    video { width: 100%;   transform: scale(1.5); }
+    .banner { height: 300px;}
+    .picture {margin-top: 10%; margin-bottom: 10%;}
+.gallery img {width: 90%}
     
+    iframe {height: 80vw}  
 }
 
 /* 
